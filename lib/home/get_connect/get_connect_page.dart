@@ -9,7 +9,7 @@ class GetConnectPage extends GetView<GetConnectController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Http'),
+        title: Text('GetConnect Page'),
       ),
       body: controller.obx((state) {
         return ListView.builder(

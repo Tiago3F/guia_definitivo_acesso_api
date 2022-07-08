@@ -8,7 +8,7 @@ class HttpPage extends GetView<HttpController> {
    @override
    Widget build(BuildContext context) {
        return Scaffold(
-           appBar: AppBar(title: Text('Http'),),
+           appBar: AppBar(title: Text('Http Page'),),
            body: controller.obx((state) {
              return ListView.builder(
                itemCount: state.length,
